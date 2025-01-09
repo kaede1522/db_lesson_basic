@@ -1,5 +1,6 @@
 -- Q1
 
+
 CREATE TABLE departments (
   department_id INT unsigned AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(20) NOT NULL,
