@@ -9,6 +9,7 @@ CREATE TABLE departments (
 );
 
 
+
 -- Q2
 
 ALTER TABLE people ADD department_id INT unsigned after email;
