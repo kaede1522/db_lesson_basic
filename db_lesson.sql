@@ -1,5 +1,6 @@
 -- Q1
 
+
 CREATE TABLE departments (
   department_id INT unsigned AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(20) NOT NULL,
@@ -68,4 +69,5 @@ SELECT name, age FROM people WHERE gender = 1 ORDER BY age DESC;
 
 -- Q6
 
-「people」テーブルで、「'name','email','age'」のカラムを指定して、「department_id」のレコードが「1」である人物をレコード作成順で表示する。
+「people」テーブルで、「'name','email','age'」のカラムを指定し、「department_id」のレコードが「1」である人物をレコード作成順で表示する。
+
